@@ -45,6 +45,16 @@
     border-color: rgb(10, 122, 255);
 }
 
+.pride_text {
+    /*background: linear-gradient(135deg, red 20%, orange 20% 40%, red 40% 60%, green 60% 80%, blue 80%);*/
+    background: -webkit-linear-gradient(135deg, orange , red, green, cyan, blue, violet);
+    background: -o-linear-gradient(135deg, orange, red, green, cyan, blue, violet);
+    background: -moz-linear-gradient(135deg, orange, red, green, cyan, blue, violet);
+    background: linear-gradient(135deg, orange , red, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .pride_video {
     margin: auto 5%;
 }
@@ -53,5 +63,8 @@
 }
 .pride_left {
     float: left;
+}
+
+.pride2 {
 
 }

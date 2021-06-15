@@ -15,7 +15,7 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.watch_se {
+.watch_se, .watch_pride {
     background-color: #f9f9f9;
     color: black;
     width: 85%;
@@ -43,4 +43,15 @@
     border-radius: 20px;
     background-color: rgb(10, 122, 255); /* 10, 122, 225 for dark mode */
     border-color: rgb(10, 122, 255);
+}
+
+.pride_video {
+    margin: auto 5%;
+}
+.pride_buy {
+
+}
+.pride_left {
+    float: left;
+
 }
